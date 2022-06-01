@@ -19,20 +19,18 @@ Tools:
 • GitHub will be used in the project.
 • There will be a 30 minutes meeting with teammates every day.
 • The content of the daily meeting is generally as follows:
-1. 1.
-What each person did
-2. 2.
-The general direction in the project
-3. 3.
-Task sharing until tomorrow
-4. 4.
-A meeting will be held with the mentor on the specified dates
+1.What each person did
+2.The general direction in the project
+3. Task sharing until tomorrow
+4. A meeting will be held with the mentor on the specified dates
 Each person in the team will tell about the part he did to the
 mentor in the meeting. After each meeting, the mentor will make
 an assessment of whether each team member is working or not
 After the project is completed, an online project presentation will
 be made.
+
 Meeting Schedule
+
 1.Online Kick-off Meeting - 23/05/2022
 2.Online Mentor Meeting - 26/05/2022
 3.Class Work(Online Work) - 28/05/2022
