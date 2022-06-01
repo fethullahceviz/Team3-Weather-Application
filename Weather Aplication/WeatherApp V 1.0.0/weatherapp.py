@@ -15,7 +15,7 @@ database='****'#enter database name
 conn    = connect(host=host, user=user, password=password, dbname=database)
 cur     = conn.cursor()
 # hava durumu sitesi api key
-apiKey  = '****' #enter database name
+apiKey  = '****' #enter apikey
 
 class MainMenu(QMainWindow):
     def __init__(self):
