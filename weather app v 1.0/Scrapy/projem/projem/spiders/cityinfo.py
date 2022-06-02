@@ -5,7 +5,7 @@ from scrapy.crawler import CrawlerRunner
 import psycopg2
 import scrapy
 
-connection  = psycopg2.connect(host='localhost', user='postgres', password='123456', dbname='weather')
+connection  = psycopg2.connect(host='localhost', user='postgres', password=#enterpass, dbname=#enterdabasename)
 cur         = connection.cursor()
 
 cur.execute(""" CREATE TABLE IF NOT EXISTS city_info ( 
