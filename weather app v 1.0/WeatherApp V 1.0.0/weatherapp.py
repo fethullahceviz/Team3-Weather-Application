@@ -9,7 +9,7 @@ from PyQt5.QtCore import pyqtSlot
 # database baglanti
 
 connection  = psycopg2.connect(host='localhost', user='postgres', password=#enterpass, dbname=#enterdabasename)
-cur     = conn.cursor()
+cur         = conn.cursor()
 
 # hava durumu sitesi api key
 apiKey  = '#enterapikey'
