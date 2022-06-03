@@ -39,7 +39,7 @@ class Weather1(scrapy.Spider):
                 cur.execute("INSERT INTO city_info (land, city, province, population) VALUES (%s, %s, %s, %s)",("Turkey", city_name, province_, population_))
                 connection.commit()
         else:
-            print("---------------Zaten kayitli-1---------------")
+            print("Cities are already saved")
 
 class Weather2(scrapy.Spider):
     name = 'weather'
@@ -67,7 +67,7 @@ class Weather2(scrapy.Spider):
                 cur.execute("INSERT INTO city_info(land,city,province,population) VALUES(%s,%s,%s,%s)",("Netherland",city_name, province_, population_))
                 connection.commit()
         else:
-            print("---------------Zaten kayitli-2----------------")
+            print("Cities are already saved")
                 
 class Weather3(scrapy.Spider):
     name = 'weather'
@@ -102,7 +102,7 @@ class Weather3(scrapy.Spider):
                 cur.execute("INSERT INTO city_info(land,city,province,population) VALUES(%s,%s,%s,%s)",("Usa",city_name, province_, population_))
                 connection.commit()
         else:
-            print("---------------Zaten kayitli-3----------------")
+            print("Cities are already saved")
 
 configure_logging()
 settings = get_project_settings()
